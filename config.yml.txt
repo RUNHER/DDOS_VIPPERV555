@@ -1,0 +1,5 @@
+blank_issues_enabled: benar
+kontak_link:
+  - nama: “ƒ Dokumentasi
+    url: https://github.com/RunherDDos/Runher/wiki
+    tentang: Silakan baca dokumentasi dari sini.

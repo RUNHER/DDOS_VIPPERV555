@@ -1,0 +1,7 @@
+versi: 2
+pembaruan:
+  # Aktifkan pembaruan versi untuk npm
+  - paket-ekosistem: "pip"
+    # Cari file `package.json` dan `lock` di direktori `root`
+    direktori: "/"
+    # Periksa daftar npm

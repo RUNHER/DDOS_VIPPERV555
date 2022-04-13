@@ -11,9 +11,7 @@ from multiprocessing import RawValue
 from os import urandom as randbytes
 from pathlib import Path
 from secrets import choice as randchoice
-from socket import (AF_INET, IP_HDRINCL, IPPROTO_IP, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM,
-                    SOCK_RAW, SOCK_STREAM, TCP_NODELAY, gethostbyname,
-                    gethostname, socket)
+from socket import (AF_INET, IP_HDRINCL, IPPROTO_IP, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM,SOCK_RAW, SOCK_STREAM, TCP_NODELAY, gethostbyname,gethostname, socket)
 from ssl import CERT_NONE, SSLContext, create_default_context
 from struct import pack as data_pack
 from subprocess import run, PIPE
